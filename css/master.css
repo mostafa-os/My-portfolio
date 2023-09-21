@@ -409,6 +409,8 @@ a.home {
 
 .works .content {
     margin-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .works .content .container {
