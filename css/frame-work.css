@@ -55,6 +55,10 @@
     width: fit-content;
 }
 
+.h-fit {
+    height: fit-content;
+}
+
 /* end width & height */
 /* start color */
 .c-black {
