@@ -161,9 +161,14 @@ header ul li a:hover {
     max-width: 600px;
 }
 
-.landing h3 {
+.landing .text h3 {
     line-height: 1.5;
-    font-size: 40px;
+}
+
+@media (min-width:400px){
+    .landing .text h3{
+        font-size: 40px;
+    }
 }
 
 @media (max-width:399px){
@@ -171,7 +176,7 @@ header ul li a:hover {
         padding: 30px 50px;
     }
 
-    .landing h3{
+    .landing .text h3{
         font-size: 35px;
     }
 }
